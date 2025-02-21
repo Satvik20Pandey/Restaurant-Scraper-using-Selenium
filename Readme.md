@@ -1,8 +1,8 @@
-Restaurant Scraper using Selenium
-📌 Project Overview
-This project scrapes restaurant data from Google search results using Selenium and displays the retrieved data on a webpage. It mimics human-like browsing behavior to reduce bot detection and ensure smoother data extraction.
+# Restaurant Scraper using Selenium
+<br>📌 Project Overview
+This project scrapes restaurant data from Google search results using Selenium and displays the retrieved data on a webpage. It mimics human-like browsing behavior to reduce bot detection and ensure smoother data extraction.<br>
 
-🛠 Features
+<br>🛠 Features
 ✅ Scrapes multiple restaurants from Google Search
 
 ✅ Uses random delays and scrolling to mimic human behavior
@@ -13,39 +13,29 @@ This project scrapes restaurant data from Google search results using Selenium a
 
 ✅ Displays the scraped data on a web page
 
-📂 Folder Structure
-📂 Scrape Data
-├── 📂 static                # Stores scraped data
-│   └── restaurants_new_delhi.csv  
-├── 📂 templates             # Contains HTML file for UI
-│   └── index.html
-├── scraper.py              # Main script to scrape data
-├── app.py                  # Flask app to display data
-├── requirements.txt        # List of dependencies
-└── README.md               # Project documentation
-🚀 Installation & Usage
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/restaurant-scraper.git
-cd restaurant-scraper
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run the Scraper
-python scraper.py
-This will scrape restaurant data from Google and save it in static/restaurants_new_delhi.csv.
+<br> 🚀Installation & Usage
+1️⃣ Clone the Repository<br>
+git clone https://github.com/yourusername/restaurant-scraper.git<br>
+cd restaurant-scraper<br>
+2️⃣ Install Dependencies<br>
+pip install -r requirements.txt<br>
+3️⃣ Run the Scraper<br>
+python scraper.py<br>
+This will scrape restaurant data from Google and save it in static/restaurants_new_delhi.csv.<br>
 
-4️⃣ Start the Web Application
-python app.py
-Now, open http://127.0.0.1:5000/ in your browser to see the restaurant data.
+4️⃣ Start the Web Application<br>
+python app.py<br>
+Now, open http://127.0.0.1:5000/ in your browser to see the restaurant data.<br>
 
-🖥 Technologies Used
-Python (Selenium, Flask, Pandas)
+## 🖥 Technologies Used<br>
+Python (Selenium, Flask, Pandas)<br>
 
-HTML & CSS (Frontend UI)
+HTML & CSS (Frontend UI)<br>
 
-CSV (Data Storage)
+CSV (Data Storage)<br>
 
-⚠️ Notes
-Ensure Google Chrome and Chromedriver are installed.
+## ⚠️Notes<br>
+Ensure Google Chrome and Chromedriver are installed.<br>
 
 If you face the OSError: Cannot save file into a non-existent directory, manually create a static folder.
 
